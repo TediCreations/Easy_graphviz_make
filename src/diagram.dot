@@ -1,0 +1,8 @@
+digraph G {
+	graph [fontsize=10 fontname="Verdana" compound=true rankdir=LR];
+	node [shape=record fontsize=10 fontname="Verdana"];
+
+	// Edges between nodes render fine
+	"on" -> "off";
+	"off" -> "on";
+}
